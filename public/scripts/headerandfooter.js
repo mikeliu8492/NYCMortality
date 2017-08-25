@@ -5,10 +5,6 @@ var rootElementHead =
             className: "btn btn-primary"
         }, 'Home'),
         React.createElement('a', {
-            href: '/white',
-            className: "btn btn-primary"
-        }, 'White'),
-        React.createElement('a', {
             href: '/asian',
             className: "btn btn-primary"
         }, 'Asian'),
@@ -21,13 +17,17 @@ var rootElementHead =
             className: "btn btn-primary"
         }, 'Hispanic'),
         React.createElement('a', {
+            href: '/white',
+            className: "btn btn-primary"
+        }, 'White'),
+        React.createElement('a', {
             href: '/other',
             className: "btn btn-primary"
         }, 'Other/Mixed'),
         React.createElement('a', {
             href: '/unknown',
             className: "btn btn-primary"
-        }, 'Unknown')
+        }, 'Unknown/Not Stated')
     )
 
 
