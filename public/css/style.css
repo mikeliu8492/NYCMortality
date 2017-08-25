@@ -1,0 +1,11 @@
+div.header {
+    background-image: url("/pictures/nynight.jpg");
+    background-repeat: no-repeat;
+}
+
+div.header h1 {
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
